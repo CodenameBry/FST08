@@ -1,0 +1,19 @@
+- Check git version
+git --version
+
+- Configure git
+git config --global user.name "username"
+git config user.name
+git config --global user.email "email"
+git config user.email
+
+
+{
+git init
+U means Untracked
+
+git status
+to check the status of git
+
+git add .
+}
