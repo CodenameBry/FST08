@@ -1,53 +1,51 @@
-- Check git version
-git --version
+To check the git version
+    git --version
 
-- Configure git
-git config --global user.name "username"
-git config user.name
-git config --global user.email "email"
-git config user.email
+Configure the git
+    git config --global user.name "username"
+    git config user.name
+    git config --global user.email "email"
+    git config user.email
 
-- Legends
-U - untracked
-A - Added
-M - Modified
+LEGENDS
+    U - Untracked
+    A - Added
+    M - Modified
 
-- 3 Stage Architecture
+3 Stage Architecture
+    To check the status of all the files and folders within project folder
+    git status
 1. Working Area
+    To initialize
+    git init
 2. Staging Area
+    To add modification
+    git add . or git add "filename.ext"
 3. Commit Stage
+    Create a commit
+    git commit -m "Description"
 
-- Check the status of all the files and folders within project folders
-git status
+To print the history of the modifications
+git log             //completed
+git log --oneline   //for shorter
 
-- Add all the files that have been modified
-git add .
-git add "filename.ext"
-
-- Create a commit 
-git commit -m "Description."
-
-- Check the history of the changes.
-git log
-git log --oneline
 
 Branching and Merging
-
-- List all the available branches
-git branch -a
-
-- Create a new branch
-git branch [branch-name]
-
-- Switch to a different branch
-git switch [branch-name]
-git checkout [branch-name]
-
-- Merge a branch
-git merge [branch-name]
-
-- Delete a branch
-git branch -d [branch-name]
+To list all the available branches
+    git branch -a   //{a} means all
+To create a new branch
+    git branch “name”
+    ex: git branch “feature”
+To switch to a different branch
+    git switch “branch_name”
+    ex: git switch “feature”
+    ex: git checkout “feature”
+To merge a branch
+    git merge “branch_name”    //note: before you merge, you need to jump back to the master or main branch
+    ex: git merge “feature”
+To delete a branch
+    git branch -d “branch_name”
+    ex: git branch -d “feature”
 
 Create remote repository
 
