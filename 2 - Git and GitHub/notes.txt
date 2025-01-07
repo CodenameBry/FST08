@@ -47,16 +47,16 @@ To delete a branch
     git branch -d “branch_name”
     ex: git branch -d “feature”
 
-Create remote repository
-
-- Add a remote to the local repository
-git remote add origin [repository-url]
-
-- Rename the master branch to main
-git branch -M main
-
-- Push code from local repository to the remote repository for the first time.
-git push -u origin main
-
-- Push code from local repository to the remote repository
-git push
+Creating Remote Repository (GitHub)
+- Go to GitHub.com
+- Create new repository
+- Use repository name same as your directory name
+- Set as Public or Private
+- Uncheck the (Add a README file)
+- Create repository
+- Copy the codes below **one by one**
+    ex: git remote add origin http://github.com/CodenameBry/FST08.git
+    ex: git branch -M main             //to set from master to main which is universally used by developers
+    ex: git push -u origin main        //to push the codes to remote directory
+    //do this instead if you have an existing repository
+    ex: git push
