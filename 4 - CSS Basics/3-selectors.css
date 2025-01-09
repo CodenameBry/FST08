@@ -1,0 +1,49 @@
+/* Element Selector */
+/* all the span tag will be affected */
+span{
+    color: #233d4d;
+    background-color: #fe7f2d;
+}
+
+/* prefix */
+/* classname - . */
+
+.intro-paragraphs{
+    color: #ebf4f5;
+    background-color: #b5c6e0;
+}
+
+/* id - # */
+#main-heading{
+    text-align: center;
+    color: #9bafd9;
+    background-color: #103783;
+}
+
+/* Universal Selector */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Grouping Selector */
+h1, h2, .about-content{
+    color: #696eff;
+    background-color: #f8acff;
+}
+
+/* Decendant Selector */
+.article-container p{
+    color: #f3e9dc;
+    background-color: #c08552;
+}
+
+/* Pseudo Classes */
+a:hover{
+    color: #0a2463;
+    background-color: #fb3640;
+}
+
+a:active{
+    color: #002642;
+    background-color: #840032;
+}
